@@ -1,9 +1,9 @@
-{{--<nav>--}}
-{{--    <li class="{{ setActive('home') }}"><a href="/">Home</a></li>--}}
-{{--    <li class="{{ setActive('about') }}"><a href="/about">About</a></li>--}}
-{{--    <li class="{{ setActive('portfolio') }}"><a href="/portfolio">Portfolio</a></li>--}}
-{{--    <li class="{{ setActive('contact') }}"><a href="/contact">Contact</a></li>--}}
-{{--</nav>--}}
+<nav>
+    <li class="{{ setActive('home') }}"><a href="/">Home</a></li>
+    <li class="{{ setActive('about') }}"><a href="/about">About</a></li>
+    <li class="{{ setActive('portfolio') }}"><a href="/portfolio">Portfolio</a></li>
+    <li class="{{ setActive('contact') }}"><a href="/contact">Contact</a></li>
+</nav>
 <!-- This example requires Tailwind CSS v2.0+ -->
 <nav class="bg-gray-800">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
